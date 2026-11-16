@@ -1,0 +1,196 @@
+body{
+    background-image: url(success.png);
+    background-size: cover;
+    background-position: center;
+    min-height: 90vh;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    font-family:cursive;
+    margin-top: 25px;
+
+}
+.glass-box{
+    width: 900px;
+    height: 500px;
+    background: rgba(255,255,255,0.2);
+    border: 2px solid rgb(228, 132, 148);
+    border-radius: 20px;
+    backdrop-filter: blur(3px);
+   padding: 30px; 
+   box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);
+}
+i{
+    position: relative;
+    margin-left:20px;
+    color:#fff;
+    font-size:25px;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+i:hover{
+    color:#000;
+}
+nav{
+    width: 60%;
+    background-color: #972391;
+    display:flex;
+    align-items:center;
+    padding:10px 20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+nav ul li{
+    list-style:none;
+    display:inline-block;
+    margin:0 20px
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    transition: 0.2s ease;
+}
+nav ul li a:hover{
+    color: #000;
+
+}
+.searchbox input{
+    float:right;
+    margin:-32px 40px;
+    width: 30%;
+    height: 27px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #fff;
+    letter-spacing: 1px;
+    font-size: 16px;
+
+}
+.searchbox ::placeholder, .searchboxinput{
+    color:#fff;
+    font-size: 16px;
+    padding-bottom: 3px;
+}
+.searchbox input:hover{
+    border-bottom: 2px solid #f0000f;
+
+}
+.icon{
+    float: right;
+    margin: -30px 40px;
+}
+.icon i{
+    font-size: 20;
+    color: #fff;
+    transition: o.2s ease;
+}
+.icon i:hover{
+    color: #972391;
+}
+.social-media{
+    float: right;
+    width: 80px;
+    height: 230px;
+    background-color: #972391;
+    margin-top: 226px;
+    border-bottom-right-radius:20px;
+    border-top-left-radius: 20px;
+}
+.icon1 i{
+    margin:6px 30px;
+}
+.box{
+    display: flex;
+    margin-top: 40px;
+}
+.login-box{
+    width: 250px;
+    height: 350px;
+    margin: 0 40px;
+    border: 5px solid #972391;
+    border-radius: 5%;
+    background: radial-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3));
+    color: #fff
+    padding 10px 10px;
+}
+.login-box:hover{
+    border: 5px solid #fff;
+}
+.login-box h1{
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 1px;
+    color: #972391;
+}
+.login-box input{
+    width: 90%;
+    background: transparent;
+    outline: none;
+    border: none;
+    color: #fff;
+    border-bottom: 1px solid #fff;
+    letter-spacing: 1px;
+    transition: 0.2s ease;
+}
+.login-box input:hover{
+    border-bottom: 2px solid #972391;
+}
+.login-box ::placeholder{
+    color: #fff;
+}
+.login-box h5 a{
+    color: red;
+}
+.login-box h5 a:hover{
+    color: greenyellow;
+}
+.login-box button{
+    margin-left: 80px;
+    padding: 6px 18px;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    font-family: cursive;
+    font-size: 15px;
+    transition: 0.2s ease;
+
+}
+.login-box button:hover{
+    color: #fff;
+    background: #972391;
+}
+.desc{
+    width: 410;
+    height: 340px;
+    border: 5px solid #972391;
+    border-radius: 5%;
+    padding: 15px;
+}
+.desc:hover{
+    border: 5px solid #fff;
+}
+.desc h1{
+    color: #972391;
+    margin-bottom: 30px;
+    margin-top: 1px;
+    text-align: center;
+}
+.desc p{
+    color: #fff;
+}
+.desc button{
+    padding: 6px 18px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: cursive;
+    margin: 20px 4px;
+}
+.desc button:hover{
+    color:#fff;
+    background: #972391;
+}
